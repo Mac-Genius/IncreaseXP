@@ -1,0 +1,11 @@
+name: IncreaseXP
+main: io.github.mac_genius.increasexp.IncreaseXP
+version: 1.0
+permissions:
+    shadexp.*:
+        description: Gives access to all IncreaseXP functions
+        children:
+            shadexp.more: true
+        shadexp.more:
+            description: Gives more xp to players with looting/fortune tools
+            default: op
